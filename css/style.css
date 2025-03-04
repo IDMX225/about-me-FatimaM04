@@ -26,17 +26,30 @@ header{
     padding: 10px;
     text-align: center;
 }
+/*Hero Section*/
 
 #hero img{
 
     width: 300px;
 }
 
+/*Bio Section*/
 #bio{
     text-align: left;
 }
 
+/*Hobbies Section*/
 #hobbies{
     text-align: left;
 
+}
+
+/*Gallery Section*/
+
+#gallery img{
+    max-width: 100%;
+    
+}
+#gallery figure{
+    text-align: center;
 }
