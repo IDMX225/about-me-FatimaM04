@@ -45,7 +45,9 @@ header{
 }
 
 /*Gallery Section*/
-
+#gallery{
+    margin-bottom: 2rem;
+}
 #gallery img{
     max-width: 100%;
     
@@ -53,3 +55,20 @@ header{
 #gallery figure{
     text-align: center;
 }
+
+/*Literature*/
+#lit{
+    
+    margin-bottom: 2rem;
+}
+
+#lit div{
+    padding: 2rem;
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+#lit div{
+    padding: 0.3rem 0;
+}
+
