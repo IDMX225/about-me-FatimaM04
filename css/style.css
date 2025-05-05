@@ -66,7 +66,7 @@ h2 {
 /* Gallery Section */
 #gallery {
     background-color: #96b7a0;
-    border: 1px solid #4e725a}
+    border: 1px solid #3A5E46}
 #gallery img {
 
     max-width:100%;
@@ -177,7 +177,7 @@ padding: .5em;}
 #contact input, #contact textarea, #contact select, #contact button {
 padding: .5em;
 font-size: 1rem;
-background-color: rgb(114, 145, 114);
+background-color: #3A5E46;
 border: 1em;}
 
 #contact ul {
