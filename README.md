@@ -2,6 +2,8 @@
 
 Fatima Mian
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/da943909-0450-408d-908c-9fd0e39e79a4/deploy-status)](https://app.netlify.com/sites/fatimamian-aboutme/deploys)
+
 # Welcome to my README! 
 
 ## Description
