@@ -3,20 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--Title-->
     <title>About Me</title>
+
+<!--Logo-->
+    <link rel="icon" type="image/x-icon" href="IMG/Logo.png">
+
+<!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&family=Kiwi+Maru&display=swap" rel="stylesheet">
     
-    <link href="css/style.css" rel="stylesheet">
-</head>
 
+<!--Stylesheets-->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+
+</head>
 <body>
-    <header>
-        <img src="img/logo-96X96.svg" alt="Blue origami logo">
-        <h1>Web Dev I</h1>
-    </header>
-    <main>
+<header>
+    
+<!--Stylesheets-->
+<link href="css/style.css" rel="stylesheet">
+<link href="css/nav.css" rel="stylesheet">
+
+
+</head>
+<body>
+<header>
+
+<!--Nav Bar-->
+<nav class="navbar">
+<label for="hamburger">&#9776;</label>
+<input type="checkbox" id="hamburger"/>
+<div class="logo">
+    <img src="IMG/logo.svg" alt="Personal Logo">
+    <h1>Web Dev I</h1>
+    </div>
+    <div class="navbar-links" id="hamitems">
+    <ul>
+        <li><a href="#bio">Bio</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#lit">Blog</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+
+    </ul>
+</div>
+</nav>
+</header>
+
+<main>
         <section id="hero">
             <img src="img/avataaars.png" alt="My avatar">
             <div>
@@ -110,11 +147,112 @@
             </div>
 
     </article>
+<!--Research Blogpost-->
+<article id="lit">
+    <h2>CSS Animation</h2>
+
+    <div>
+
+    <p>CSS animation is a powerful tool for adding engaging and interactive visual effects to a website or web application. It allows web developers to create dynamic and eye-catching animations that can enhance the user experience and make a website feel more modern and polished. In this blog post, we will explore the basics of CSS animation, how it works, and some tips for getting started.</p>
+    <H3>What is CSS animation?</H3>
+    <p>CSS animation is a technique for adding movement and visual effects to web pages using Cascading Style Sheets (CSS). With CSS animation, web developers can create transitions and animations that can be triggered by user actions, such as clicking a button or hovering over an element. CSS animation is a popular alternative to using JavaScript for animation, as it can often be faster and more lightweight.</p>
+    <h3>How does CSS animation work?</h3>
+    <p>CSS animation works by using CSS properties to change the appearance of an element over time. To create an animation, developers define a set of keyframes, which specify how the element should look at different points in time. For example, a keyframe might define the position, size, and color of an element at the start and end of an animation. Developers can then use the @keyframes rule in CSS to define the animation sequence. The @keyframes rule specifies the name of the animation, the duration of the animation, and the keyframes that make up the animation. Developers can also use other CSS properties to control the timing and behavior of the animation, such as easing functions, delay times, and iteration counts.</p>
+    <p style="text-align:center;"><img src="IMG/css-animation-ex.jpg">
+    <img src="IMG/css-animation2.jpg"></p>
     
+    <h3>Tips for getting started with CSS animation</h3>
+    <ol type="1">
+        <li>Start simple: When getting started with CSS animation, it's best to start with simple animations and work your way up to more complex ones. Try experimenting with basic properties like opacity and transform to get a feel for how animation works.</li>
+        <li>Use easing functions: Easing functions can be used to control the rate of change in an animation. They can be used to create more natural-looking animations that don't feel jarring or abrupt.</li>
+        <li>Test across browsers: CSS animation is supported across most modern browsers, but there can be slight differences in how different browsers handle animation. Be sure to test your animations across different browsers to ensure they work correctly.</li>
+        <li>Use animation libraries: There are many animation libraries available that can help simplify the process of creating complex animations. Libraries like Animate.css and AOS can be used to quickly add pre-built animations to your website.</li>
+      </ol>
+    </div>
+
+</article>
+
+<!--Contact Form-->
+<section id="contact">
+    <h2>Contact Us:</h2>
+    <form id="contact form" name="contactform"  method="post" data-netlify="true">
+        <fieldset>
+            
+            <legend>Contact Form</legend>
+            
+            <div id="formElements">
+                <!--Name-->
+                <label for="name">Name (required)</label>
+                <input type="text" id="name" name="name" required>
+                
+                <!---Email-->
+                <label for="email">Email (optional)</label>
+                <input type="email" id="email" name="email" required>
+
+                <!---Phone-->
+                <label for="phone">Phone (required)</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <!--Phone Type -->
+                <label for="phonetype">Phone type (optional)
+                </label>
+                <select id="phonetype" name="phonetype">
+                    <option value="" selected>Select phone type</option>
+                    <option value="Mobile">Mobile</option>
+                    <option value="Work">Work</option>
+                    <option value="Home">Home</option>
+        
+                </select>
+                <!---Message-->
+                <label for="Message">Message (optional)</label>
+                <textarea id="message" name="message" rows="8"></textarea>
+
+                <!--Reply-->
+                <fieldset>
+                    <legend>Would you like a reply?</legend>
+
+                    <ul>
+                        <li>
+                            <input type="radio" id="message~yes" name="reply" value="Yes, a reply please.">
+                            <label for="message~yes">Yes, a reply would be nice.</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="message~no" name="reply" value="No reply please.">
+                            <label for="message~no">No, a reply is not needed.</label>
+                        </li>
+
+                    </ul>
+
+                </fieldset>
+
+                <!--Submit-->
+                <button type="submit">Send</button>
+
+            </div>
+            
+           
+       
+        </fieldset>
+
+
+
+    </form>
+
+
+</section>
 </main>
-    
-<footer>
-        © 2025 - Fatima Mian
-    </footer>
+
+<footer id="footer">
+&copy; 2023- Fatima Mian
+<div>
+
+ <!--Social Media- link to github repo-->
+    <a class="GitIcon" href="https://github.com/RVCC-IDMX/about-me-FatimaM04" target="_blank"><ion-icon name="logo-github" ></ion-icon></a>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</div>
+</footer>
+
 </body>
 </html>
