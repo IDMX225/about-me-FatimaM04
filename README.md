@@ -24,7 +24,7 @@ The nav bar is giving some trouble. It was a huge pain trying to get the hamburg
 
 For the color scheme, I wanted an earthy and calming feel for the webpage, so I decided to go with a variety of differnt shades of green and purple, with some whitesmoke. I thought it would offer a nice contarst while being muted and modern at the same time. 
 
-![Getting Started](IMG/pallette.jpg)
+![Getting Started](img/pallete.png)
 
 I didn't use all the colors on this pallet, mostly just the darker green; `#4e725a`, `rgb(78, 114, 90)`; and purple; `#946fb6`, `rgb(148, 111, 182)`; for a better contrast, and the lighter green; `#C3D6C9`, `rgb(195, 214, 201)`; in the background, along with some hints of WhiteSmoke, `#f5f5f5`, `rgb(245, 245, 245)`; to brighten certain areas of the page.
 
