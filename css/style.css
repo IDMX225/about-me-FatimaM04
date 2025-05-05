@@ -89,10 +89,15 @@ h2 {
     background-color:#96b7a0;
     border: 1px solid rgb(78, 114, 90)
     
+    
 }
 
 #lit div {
-    padding: 3.5em rem;}
+    padding: 5em rem;
+    text-align: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
 
 
 #lit p:first-of-type::first-letter {
